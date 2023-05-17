@@ -1,0 +1,468 @@
+/* css color pallete of flat ui colors  */
+/* https://flatuicolors.com/palette/defo */
+/* CSS for the entire page */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* nav {
+    background-color: #22203d;
+    height: 10vh;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+} */
+
+/* CSS for Header/Logo Section */
+header {
+    height: 90vh;
+    background: radial-gradient(112.92% 132.13% at 19.24% 17.53%, rgba(104, 91, 255, 0.24) 0%, rgba(84, 73, 218, 0) 100%), #141414;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px; */
+}
+
+header h1 {
+    font-size: 4em;
+    /* color: #fff; */
+
+    font-weight: bolder;
+    width: 80%;
+    margin: 2% auto;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 87px;
+    letter-spacing: -0.02em;
+    font-feature-settings: "pnum" on, "lnum" on;
+    background: -webkit-linear-gradient(45deg, rgba(236, 109, 59, 1), rgba(186, 75, 225, 1));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header p {
+    font-size: 2em;
+    color: #fff;
+    width: 80%;
+    margin: 0% auto;
+    line-height: 1.6;
+    font-size: 21px;
+    color: white;
+}
+
+/* CSS for Hero Section */
+section {
+    background-color: #fff;
+    padding: 80px;
+    text-align: center;
+
+    background: radial-gradient(112.92% 132.13% at 19.24% 17.53%, rgba(233, 108, 69, 0.2) 0%, rgba(200, 84, 182, 0) 100%), #141414;
+}
+
+section h4 {
+    font-size: 4em;
+    font-weight: bolder;
+    width: 80%;
+    margin: 1% auto;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 138px;
+    letter-spacing: -0.02em;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #ffffff;
+}
+
+section p {
+    font-size: 2em;
+    color: #fff;
+    width: 80%;
+    margin: 0% auto;
+    line-height: 1.6;
+    font-size: 21px;
+    color: white;
+}
+
+button {
+    color: white;
+    background: -webkit-linear-gradient(45deg, rgba(236, 109, 59, 1), rgba(186, 75, 225, 1));
+    /* background: yellow; */
+    padding: 1em 1em;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.4em;
+    margin-top: 4%;
+    cursor: pointer;
+}
+
+button:hover {
+    /* background-color: #23527c; */
+}
+
+/* Rest of the CSS code */
+/* CSS for the previous sections */
+/* ... */
+
+/* CSS for Caption Generator Section */
+section:nth-child(3) {
+    background-color: #f2f2f2;
+    padding: 80px;
+    text-align: center;
+
+    background: radial-gradient(103.29% 115.12% at 19.13% 14.58%, rgba(61, 100, 239, 0.2) 0%, rgba(255, 255, 255, 0) 100%), #141414;
+}
+
+section:nth-child(3) h3 {
+    width: 84%;
+    margin: 3% auto;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 87px;
+    letter-spacing: -0.02em;
+    font-feature-settings: "pnum" on, "lnum" on;
+    
+    background: -webkit-linear-gradient(45deg, rgba(90, 245, 255, 1), rgba(255, 99, 239, 1));
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+section:nth-child(3) p {
+    width: 84%;
+    margin: 0% auto;
+    line-height: 1.6;
+    font-size: 21px;
+    color: white;
+}
+
+/* CSS for Banner Generator Section */
+section:nth-child(4) {
+    padding: 80px;
+    text-align: center;
+
+    background: radial-gradient(103.29% 115.12% at 19.13% 14.58%, rgba(202, 223, 255, 0.14) 0%, rgba(213, 230, 255, 0) 100%), #141414;
+}
+
+section:nth-child(4) h3 {
+    font-weight: bolder;
+    width: 80%;
+    margin: 3% auto;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 87px;
+    letter-spacing: -0.02em;
+    font-feature-settings: "pnum" on, "lnum" on;
+    background: -webkit-linear-gradient(45deg, rgba(49, 195, 160, 1), rgba(49, 196, 161, 1), rgba(52, 157, 255, 1));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section:nth-child(4) p {
+    width: 84%;
+    margin: 0% auto;
+    line-height: 1.6;
+    font-size: 21px;
+    color: white;
+}
+
+/* Rest of the CSS code */
+/* CSS for the previous sections */
+/* ... */
+
+/* CSS for Frequently Asked Questions Section */
+section:nth-child(5) {
+    background: radial-gradient(103.29% 115.12% at 19.13% 14.58%, rgba(202, 223, 255, 0.14) 0%, rgba(213, 230, 255, 0) 100%), #141414;
+    padding: 80px;
+    text-align: center;
+}
+
+section:nth-child(5) h3 {
+    font-weight: bolder;
+    width: 80%;
+    margin: 3% auto;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 87px;
+    letter-spacing: -0.02em;
+    font-feature-settings: "pnum" on, "lnum" on;
+    /* different linear graident than previous */
+    background: -webkit-linear-gradient(45deg, rgba(255, 99, 239, 1), rgba(25, 19, 239, 1));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section:nth-child(5) h4 {
+    width: 84%;
+    margin: 2% auto;
+    line-height: 1.6;
+    font-size: 21px;
+    color: white;
+}
+
+section:nth-child(5) p {
+    width: 84%;
+    margin: 0% auto;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #e6e6e6;
+}
+
+/* CSS for Testimonials Section */
+section:nth-child(6) {
+    /* radial gradient different from all previous. make it pinkish */
+    background: radial-gradient(103.29% 115.12% at 19.13% 14.58%, rgba(255, 99, 239, 0.14) 0%, rgba(255, 99, 239, 0) 100%), #141414;
+    padding: 80px;
+    text-align: center;
+}
+
+section:nth-child(6) h3 {
+    font-weight: bolder;
+    width: 80%;
+    margin: 3% auto;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 87px;
+    letter-spacing: -0.02em;
+    font-feature-settings: "pnum" on, "lnum" on;
+    /* different linear graident than previous */
+    background: -webkit-linear-gradient(45deg, rgba(95, 19, 139, 111), rgba(225, 19, 139, 211));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.testimonial {
+    margin-bottom: 70px;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonial p {
+    width: 84%;
+    margin: 1% auto;
+    line-height: 1.6;
+    font-size: 21px;
+    color: white;
+}
+
+.testimonial span {
+    font-style: italic;
+    color: #999;
+}
+
+/* CSS for Get Started Section */
+section:nth-child(7) {
+    /* radial gradient different from all previous. make it yellow */
+    background: radial-gradient(103.29% 115.12% at 19.13% 14.58%, rgba(255, 255, 0, 0.14) 0%, rgba(255, 255, 0, 0) 100%), #141414;
+    padding: 80px;
+    text-align: center;
+}
+
+section:nth-child(7) h3 {
+    font-weight: bolder;
+    width: 80%;
+    margin: 3% auto;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 87px;
+    letter-spacing: -0.02em;
+    font-feature-settings: "pnum" on, "lnum" on;
+    /* different linear graident than previous. make it yellow */
+    background: -webkit-linear-gradient(45deg, rgba(255, 255, 0, 1), rgba(55, 155, 0, 1));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section:nth-child(8) {
+    /* radial gradient different from all previous. make it green */
+    background: radial-gradient(103.29% 115.12% at 19.13% 14.58%, rgba(0, 255, 0, 0.14) 0%, rgba(0, 255, 0, 0) 100%), #141414;
+    padding: 80px;
+    text-align: center;
+}
+
+section:nth-child(8) h3 {
+    font-weight: bolder;
+    width: 80%;
+    margin: 3% auto;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 87px;
+    letter-spacing: -0.02em;
+    font-feature-settings: "pnum" on, "lnum" on;
+    /* different linear graident than previous. make it yellow */
+    background: -webkit-linear-gradient(45deg, rgba(10, 99, 232, 100), rgba(155, 255, 0, 1));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section:nth-child(8) p {
+    width: 84%;
+    margin: 1% auto;
+    line-height: 1.6;
+    font-size: 21px;
+    color: white;
+}
+
+/* Rest of the CSS code */
+/* CSS for the previous sections */
+/* ... */
+
+/* CSS for Pricing Section */
+section:nth-child(9) {
+    background-color: #f2f2f2;
+    padding: 40px;
+    text-align: center;
+}
+
+section:nth-child(9) h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.pricing-option {
+    display: inline-block;
+    width: 45%;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-option h4 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.pricing-option p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.pricing-option ul {
+    list-style-type: disc;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.pricing-option ul li {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.pricing-option a {
+    display: inline-block;
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.pricing-option a:hover {
+    background-color: #23527c;
+}
+
+/* CSS for Footer Section */
+footer {
+    background-color: #000;
+    padding: 40px;
+    text-align: center;
+}
+
+footer .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer nav ul li {
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.social-media {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.social-media li {
+    margin-right: 10px;
+}
+
+.social-media li a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* Rest of the CSS code */
